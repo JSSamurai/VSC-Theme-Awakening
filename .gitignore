@@ -1,2 +1,49 @@
-# Google App Engine generated folder
-appengine-generated/
+
+# Version Controll
+.git/
+.gitconfig
+.gitignore
+
+# Project Files & Dependancies
+package.json
+node_modules/
+.npmignore
+.vsignore
+
+# Dev Env Configuration
+.vscode/ 
+prettier.conf.js
+babel.conf.js
+.markdownlint.jsonc
+.markdownlint.json
+.jsbeautifyrc.json
+.eslintrc.json
+.babelrc.json
+.markdownlintrc
+.jsbeautifyrc
+.prettierrc
+.babelrc
+
+# Testing
+test/
+*.test.js
+
+# Enviroment
+.ENV
+.env
+
+# Temporary Storage
+cache/
+tmp/
+*.log
+CHANGELOG.md
+
+# Configuration Files
+*.conf.*
+.conf.*
+
+# Development
+.workspace/
+.notes/
+.trash/
+
