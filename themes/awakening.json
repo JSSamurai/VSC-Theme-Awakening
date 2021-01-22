@@ -29,7 +29,7 @@
         "editorLineNumber.activeForeground": "#14C4FF",
         "editorLineNumber.foreground": "#FFFFFF2F",
         "editorIndentGuide.activeBackground": "#14C4FF",
-        "editorIndentGuide.background": "#002C20",
+        "editorIndentGuide.background": "#000020",
         "minimap.errorHighlight": "#FF6871",
         "minimap.warningHighlight": "#E0FF30",
         "minimap.findMatchHighlight": "#FFC404",
@@ -38,9 +38,9 @@
         "minimapSlider.hoverBackground": "#7FFF005B",
 
         // # TITLE_BAR
-        "titleBar.activeBackground": "#081430",
+        "titleBar.activeBackground": "#000830",
         "titleBar.activeForeground": "#CCCCCC",
-        "titleBar.border": "#FFFFFF34",
+        "titleBar.border": "#16CAFF30",
         "titleBar.inactiveBackground": "#555555",
         "titleBar.inactiveForeground": "#999999",
 
@@ -52,11 +52,11 @@
         "activityBar.inactiveForeground": "#404040",
 
         // # SIDE_BAR
-        "sideBar.background": "#04111F",
+        "sideBar.background": "#080808",
         "sideBar.border": "#FFFFFF3F",
         "sideBar.foreground": "#9A9A9A",
         "sideBarSectionHeader.border": "#006980",
-        "sideBarSectionHeader.foreground": "#B1B1B1",
+        "sideBarSectionHeader.foreground": "#AAAAAA",
         "sideBarSectionHeader.background": "#1Dead100",
         "sideBarTitle.foreground": "#FF6800",
 
@@ -93,29 +93,29 @@
         "terminal.foreground": "#70FF00",
 
         // # STATUS_BAR
-        "statusBar.background": "#03060C",
-        "statusBar.foreground": "#FF7400",
-        "statusBar.border": "#240000",
+        "statusBar.background": "#030405",
+        "statusBar.foreground": "#E0E0E0",
+        "statusBar.border": "#FFFFFF5B",
         "statusBar.debuggingBackground": "#cc6633",
         "statusBar.debuggingForeground": "#ffffff",
         "statusBar.noFolderBackground": "#68217a",
         "statusBar.noFolderForeground": "#ffffff",
 
         //  # BREADCRUMB/GROUP_HEADER/TABS_AREA
-        "breadcrumb.background": "#0E1116",
+        "breadcrumb.background": "#001F24",
         "editorGroupHeader.tabsBackground": "#0E1116",
         "breadcrumbPicker.background": "#0E1116",
-        "breadcrumb.foreground": "#4C4C4C",
+        "breadcrumb.foreground": "#477888",
         "editorGroupHeader.border": "#000000C4",
-        "editorGroupHeader.tabsBorder": "#1Dead100",
+        "editorGroupHeader.tabsBorder": "#00FF3D7C",
 
         //  # TABS
         "tab.border": "#FFFFFF18",
         "tab.lastPinnedBorder": "#FFFFFF18",
 
-        "tab.activeBackground": "#0E1116",
+        "tab.activeBackground": "#00242A",
         "tab.activeForeground": "#C4C4C4",
-        "tab.activeBorder": "#1Dead100",
+        "tab.activeBorder": "#00FF3D",
         "tab.activeBorderTop": "#14C4FF",
         "tab.activeModifiedBorder": "#16CAFF",
 
@@ -212,6 +212,7 @@
         "panelSection.dropBackground": "#7FFF0088",
         "activityBar.dropBorder": "#7FFF00",
         "panel.dropBorder": "#7FFF00",
+
         /*   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *   *
 
 
@@ -219,7 +220,7 @@
         
                 # HOVER PROPERTIES                                              */
         // - (Bg)
-        "tab.hoverBackground": "#00172777",
+        "tab.hoverBackground": "#00172780",
         "tab.unfocusedHoverBackground": "#000000",
         // - (Fg)
         "tab.hoverForeground": "#14C4FF",
@@ -297,6 +298,14 @@
         "merge.incomingContentBackground": "#2DD44D1A",
         "editorOverviewRuler.currentContentForeground": "#D22D36",
         "editorOverviewRuler.commonContentForeground": "#CDD070",
-        "editorOverviewRuler.incomingContentForeground": "#2DD44D"
+        "editorOverviewRuler.incomingContentForeground": "#2DD44D",
+
+        // # GITLENSE
+        "gitlens.trailingLineForegroundColor": "#14C4FF",
+        "gitlens.gutterBackgroundColor": "#00000080",
+        "gitlens.gutterForegroundColor": "#FF7200",
+        "gitlens.viewChangesToPullIconColor": "#7FFF00",
+        "gitlens.viewChangesToPushIconColor": "#7FFF00",
+        "gitlens.viewCommitToPushIconColor": "#7FFF00"
     }
 }
