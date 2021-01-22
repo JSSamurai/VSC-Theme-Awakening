@@ -5,11 +5,11 @@
 .gitignore
 
 # Project Files & Dependancies
-package.json
+package.json 
 node_modules/
 .npmignore
 .vsignore
-
+ 
 # Dev Env Configuration
 .vscode/ 
 prettier.conf.js
