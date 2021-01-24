@@ -1,0 +1,53 @@
+# Git Version Controll
+.git/*
+.gitconfig
+.gitignore
+
+# VSCode
+.vscode/*
+.vscodeignore
+
+# Dependancies
+node_modules/*
+package.json
+
+# Linting Configuration
+.markdownlint.jsonc
+.markdownlintrc
+.eslintrc.json
+.babelrc.json
+
+# Formatting Configuration
+.jsbeautifyrc
+.prettierrc
+
+# Testing Files
+test/
+*.test.js
+
+# Project Logs
+CHANGELOG.md
+*.log
+
+# Enviroment
+.ENV
+.env
+
+# Temporary Storage
+Cache/
+cache/
+Temp/
+tmp/
+
+# Configuration Files
+*.conf.*
+.conf.*
+
+# AJ's Workspace
+workspace-ajc/
+
+#   Aj's Workspace includes the following:
+#   (Cheatsheets, official docs, nodes, code-snippets, saved-code, HTML Boiler plates, JS-Templates,
+#   CSS-Templates, Configuration-File Templates, Trash-can filled with files I dont need but dont
+#   want to delete, and their is alot lot more. To be honest its very useful, but at the same time,
+#   I sort of use it for abstract hording. :-P)
