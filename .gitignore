@@ -36,7 +36,6 @@ test/
 cache/
 tmp/
 *.log
-CHANGELOG.md
 
 # Configuration Files
 *.conf.*
@@ -46,4 +45,3 @@ CHANGELOG.md
 .workspace/
 .notes/
 .trash/
-
